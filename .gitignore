@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude IDE
+.claude/
+
+# Build and temp files
+build_log.txt
+calc-hash.js
+hash-u8.txt
+hash.txt
+tmp_get_id.js

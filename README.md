@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Randi Apriliyadi - Portfolio
 
-## Getting Started
+This is the source code for my personal portfolio website, hosted on GitHub Pages at [randiapriliyadiR.github.io](https://randiapriliyadiR.github.io).
 
-First, run the development server:
+## 🚀 About This Site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A premium, interactive portfolio built to showcase my career journey and technical skills. The design prioritizes high-end aesthetics, smooth interactions, and performant web technologies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Key Features
+- **3D Hero Section**: Interactive abstract geometry powered by **React Three Fiber** and **Three.js**.
+- **Interactive Cursor**: Custom WebGL-inspired water ripple effect that follows user interaction.
+- **Dynamic Timeline**: A vertical showcase of career progression with Framer Motion reveal animations.
+- **Parallax Imagery**: Deep-perspective scroll effects for a modern, high-end feel.
+- **Optimized Performance**: Next.js 16 with Font Optimization, efficient render loops, and full responsive design.
+- **Dark/Light Mode**: Seamlessly integrated theme system.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Core**: [Next.js](https://nextjs.org/) (App Router)
+- **Styling**: Vanilla CSS (CSS Variables)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **3D Graphics**: [@react-three/fiber](https://github.com/pmndrs/react-three-fiber)
+- **Typography**: Optimized via `next/font` (Plus Jakarta Sans, Montserrat, Inter)
+- **Deployment**: [GitHub Actions](https://github.com/features/actions) for automated Static Site Generation (SSG).
 
-## Learn More
+## 📜 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.

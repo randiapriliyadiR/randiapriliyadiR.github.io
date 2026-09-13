@@ -11,6 +11,15 @@ export interface Project {
 export const works: Project[] = [
   {
     id: 1,
+    title: 'FRANCHISE EXPLORER',
+    slug: 'franchise-explorer',
+    type: 'Personal Project / Frontend',
+    desc: 'Cinematic media explorer for large entertainment franchises — browse films, series, and games in grid, timeline, and stats views with search, filters, and sorting.',
+    img: '/images/works/franchise-explorer.jpg',
+    link: 'https://randiapriliyadir.github.io/franchises/',
+  },
+  {
+    id: 2,
     title: 'RAVEN WALLET',
     slug: 'raven-wallet',
     type: 'Personal Project / Full Stack',
@@ -19,7 +28,7 @@ export const works: Project[] = [
     link: 'https://raven-wallet.randiapriliyadi.workers.dev/',
   },
   {
-    id: 2,
+    id: 3,
     title: 'INNOTIA HRM',
     slug: 'innotia-hrm',
     type: 'Company Project / Full Stack',
@@ -27,7 +36,7 @@ export const works: Project[] = [
     img: '/images/works/innotia-hrm.png',
   },
   {
-    id: 3,
+    id: 4,
     title: 'FOODIVERDEALS',
     slug: 'foodiverdeals',
     type: 'Company Project / Full Stack',

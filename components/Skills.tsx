@@ -2,9 +2,9 @@
 import { motion } from 'framer-motion';
 
 const skills = {
-  FRONTEND: ['TypeScript', 'Nuxt.js', 'Next.js', 'Tailwind CSS', 'Bootstrap', 'Material UI', 'Flutter'],
+  FRONTEND: ['TypeScript', 'Nuxt.js', 'Next.js', 'Svelte', 'Tailwind CSS', 'Bootstrap', 'Material UI', 'Flutter'],
   BACKEND: ['TypeScript', 'Node.js', 'Laravel', 'Hono', 'Deno', 'Firebase', 'Supabase', 'Cloudflare'],
-  TOOLS: ['Windows', 'MacOS', 'Zed', 'Github', 'Figma', 'Adobe Illustrator', 'Claude Code', 'Atlassian', 'Manus AI']
+  TOOLS: ['Windows', 'MacOS', 'Zed', 'Cursor', 'Github', 'Figma', 'Adobe Illustrator', 'Claude Code', 'Atlassian', 'Manus AI', 'MetaTrader 5', 'TradingView', 'Pine Script', 'TakeProfit Indie®']
 };
 
 const container = {

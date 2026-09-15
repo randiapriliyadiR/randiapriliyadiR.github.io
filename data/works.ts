@@ -16,7 +16,7 @@ export const works: Project[] = [
     type: 'Personal Project / Frontend',
     desc: 'Cinematic media explorer for large entertainment franchises — browse films, series, and games in grid, timeline, and stats views with search, filters, and sorting.',
     img: '/images/works/franchise-explorer.jpg',
-    link: 'https://randiapriliyadir.github.io/franchises/',
+    link: 'https://randiapriliyadir.github.io/franchise',
   },
   {
     id: 2,

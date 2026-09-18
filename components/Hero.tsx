@@ -42,9 +42,10 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            style={{ fontSize: '1.25rem', letterSpacing: '0.05em', opacity: 0.8 }}
+            style={{ fontSize: '1.25rem', letterSpacing: '0.05em', opacity: 0.8, margin: 0, lineHeight: 1.5 }}
           >
-            Full-Stack Developer
+            Full-Stack Developer<br/>
+            Algorithmic Trader & Expert Advisor Developer
           </motion.p>
         </div>
 

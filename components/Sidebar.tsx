@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { FiLinkedin, FiInstagram, FiGithub, FiMail } from 'react-icons/fi';
+import { FiLinkedin, FiInstagram, FiGithub, FiTrendingUp, FiMail } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -19,10 +19,11 @@ export default function Sidebar() {
   ];
 
   const socials = [
-    { icon: FiLinkedin, href: 'https://www.linkedin.com/in/randiapriliyadi/' },
-    { icon: FiInstagram, href: 'https://www.instagram.com/randiapriliyadi/' },
-    { icon: FiGithub, href: 'https://github.com/randiapriliyadiR' },
-    { icon: FiMail, href: 'mailto:randiapriliyadi@gmail.com' },
+    { icon: FiLinkedin, href: 'https://www.linkedin.com/in/randiapriliyadi/', label: 'LinkedIn' },
+    { icon: FiInstagram, href: 'https://www.instagram.com/randiapriliyadi/', label: 'Instagram' },
+    { icon: FiGithub, href: 'https://github.com/randiapriliyadiR', label: 'GitHub' },
+    { icon: FiTrendingUp, href: 'https://www.myfxbook.id/members/randiapriliyadi', label: 'MyFXBook' },
+    { icon: FiMail, href: 'mailto:randiapriliyadi@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -53,6 +54,8 @@ export default function Sidebar() {
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={social.label}
+              title={social.label}
               initial={shouldAnimate ? { opacity: 0, y: 10 } : false}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 + i * 0.1, duration: 0.5 }}
